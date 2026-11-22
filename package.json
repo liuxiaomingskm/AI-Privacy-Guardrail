@@ -1,0 +1,16 @@
+{
+  "name": "ai-privacy-guardrail",
+  "version": "0.1.0",
+  "description": "Redact personal data and secrets before prompting an AI model, then restore them in the reply. Runs entirely in the browser.",
+  "main": "src/guardrail.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["privacy", "pii", "redaction", "llm", "ai-safety", "secrets"],
+  "author": "liuxiaomingskm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxiaomingskm/AI-Privacy-Guardrail.git"
+  }
+}
