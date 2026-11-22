@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="AI Privacy Guardrail — Redact before you prompt. Restore after it replies.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#042f2e"/>
+      <stop offset="0.55" stop-color="#0b3b4a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#glow)"/>
+
+  <!-- shield -->
+  <g transform="translate(84 86)">
+    <path d="M60 0 10 18v44c0 36 21 66 50 78 29-12 50-42 50-78V18L60 0Z" fill="url(#shield)"/>
+    <path d="m36 68 17 17 32-34" fill="none" stroke="#042f2e" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- title -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="226" y="140" fill="#ffffff" font-size="54" font-weight="800" letter-spacing="-1">AI Privacy Guardrail</text>
+    <text x="228" y="186" fill="#99f6e4" font-size="24" font-weight="500">Redact before you prompt. Restore after it replies.</text>
+    <text x="228" y="226" fill="#cbd5e1" font-size="17">100% in-browser · zero dependencies · reversible placeholders</text>
+  </g>
+
+  <!-- before / after strip -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+    <rect x="84" y="262" width="1112" height="46" rx="12" fill="#000000" fill-opacity="0.28" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="106" y="291" fill="#94a3b8">jane@acme.com</text>
+    <text x="252" y="291" fill="#5eead4">→</text>
+    <rect x="276" y="274" width="112" height="24" rx="6" fill="#1d4ed8" fill-opacity="0.35"/>
+    <text x="284" y="291" fill="#bfdbfe" font-weight="700">[EMAIL_1]</text>
+
+    <text x="430" y="291" fill="#94a3b8">10.24.8.17</text>
+    <text x="545" y="291" fill="#5eead4">→</text>
+    <rect x="569" y="274" width="74" height="24" rx="6" fill="#0e7490" fill-opacity="0.45"/>
+    <text x="577" y="291" fill="#a5f3fc" font-weight="700">[IP_1]</text>
+
+    <text x="685" y="291" fill="#94a3b8">sk-proj-••••</text>
+    <text x="818" y="291" fill="#5eead4">→</text>
+    <rect x="842" y="274" width="122" height="24" rx="6" fill="#b42318" fill-opacity="0.45"/>
+    <text x="850" y="291" fill="#fecaca" font-weight="700">[SECRET_1]</text>
+
+    <text x="1000" y="291" fill="#5eead4">↺ restore</text>
+  </g>
+</svg>

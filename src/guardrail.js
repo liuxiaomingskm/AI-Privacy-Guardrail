@@ -3,7 +3,7 @@
  * Pure functions, no DOM access. Works in the browser (window.Guardrail)
  * and in Node (require('./guardrail.js')).
  *
- * Copyright (c) 2026 liuxiaomingskm — MIT License
+ * Copyright (c) 2024 liuxiaomingskm — MIT License
  */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) module.exports = factory();

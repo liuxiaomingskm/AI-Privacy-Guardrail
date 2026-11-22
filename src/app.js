@@ -1,4 +1,4 @@
-/* AI Privacy Guardrail — UI layer. Copyright (c) 2026 liuxiaomingskm — MIT License */
+/* AI Privacy Guardrail — UI layer. Copyright (c) 2024 liuxiaomingskm — MIT License */
 (function () {
   'use strict';
   const G = window.Guardrail;
