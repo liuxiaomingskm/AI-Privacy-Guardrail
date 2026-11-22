@@ -10,6 +10,7 @@
 
 <br />
 
+[![Developed under the DataShield Lightweight Labs initiative](https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20DataShield%20Lightweight%20Labs-initiative%20project-4f46e5?style=flat-square)](https://github.com/liuxiaomingskm/datashield-lightweight-labs)
 ![Stars](https://img.shields.io/github/stars/liuxiaomingskm/AI-Privacy-Guardrail?style=flat-square&color=f5b301)
 ![Last commit](https://img.shields.io/github/last-commit/liuxiaomingskm/AI-Privacy-Guardrail?style=flat-square&color=14b8a6)
 ![License](https://img.shields.io/badge/license-MIT-0f766e?style=flat-square)
